@@ -7,11 +7,13 @@
     .intro__image {
       width: 100%;
   } 
+}
 
   @media screen and (max-width: 900px) {
     .intro__image {
       width: 60%;
   } 
+}
 
 @media screen and (max-width: 800px) {
     .intro__image {
@@ -19,11 +21,12 @@
       padding-left: 70px;
       padding-right: 70px;
     }
-  }
+}
 
   @media screen and (max-width: 560px) {
     .intro__image {
       width: 100%;
       padding: 0;
     }
-  }
+}
+  
