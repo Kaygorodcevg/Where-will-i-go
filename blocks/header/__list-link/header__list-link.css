@@ -1,0 +1,9 @@
+.header__list-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header__list-link:hover {
+    cursor: pointer;
+    opacity: .3;
+}
