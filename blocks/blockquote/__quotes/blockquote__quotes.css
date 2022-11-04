@@ -1,0 +1,35 @@
+.blockquote__quotes {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-self: center;
+    justify-self: flex-end;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 90px;
+}
+
+@media screen and (max-width: 980px) {
+    .blockquote__quotes {
+      gap: 50px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+    .blockquote__quotes {
+      gap: 38px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+    .blockquote__quotes {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 80px 50px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    .blockquote__quotes {
+      grid-template-columns: 1fr;    
+  }
+}
