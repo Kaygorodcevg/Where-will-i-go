@@ -9,7 +9,7 @@
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__nav-label/header__nav-label.css);
 @import url(../blocks/header/__nav/header__nav.css);
-@import url(../blocks/header/burger/burger.css);
+@import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/header.css);
 
 /* intro */
