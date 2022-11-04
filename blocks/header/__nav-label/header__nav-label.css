@@ -1,0 +1,20 @@
+.header__nav-label {
+  display: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.header__nav-label:hover {
+  color: black;
+}
+
+@media screen and (max-width: 560px) {
+  .header__nav-label {
+    display: inline-block;
+  }
+
+  #header__nav-label {
+    display: none;
+  }
+}

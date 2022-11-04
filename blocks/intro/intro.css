@@ -1,11 +1,17 @@
 .intro {
-    padding: 0 160px 0 50px;
-    display: flex;
+  padding: 0 160px 0 50px;
+  display: flex;
+}
+
+@media screen and (max-width: 1100px) {
+  .intro {
+    padding: 0 100px 0 40px;
   }
+}
 
 @media screen and (max-width: 800px) {
-    .intro {
-      flex-direction: column;
-      padding: 0;
-    }
+  .intro {
+    flex-direction: column;
+    padding: 0;
+  }
 }
