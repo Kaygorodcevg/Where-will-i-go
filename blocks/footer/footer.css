@@ -1,18 +1,14 @@
 .footer {
-  padding: 200px;
-  background-color: #fecda8;
-  text-align: center;
+  width: 100%;
+  aspect-ratio: 2.1;
+  background-color: #fed1ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 420px) {
   .footer {
-    max-width: 768px;
-    padding: 150px;
-  }
-}
-
-@media screen and (max-width: 4500px) {
-  .footer {
-    padding: 100px;
+    aspect-ratio: 4;
   }
 }

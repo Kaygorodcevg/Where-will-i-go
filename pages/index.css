@@ -1,24 +1,37 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/museosanscyrl.css);
+@import url(../fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 
 /* header */
-@import url(../blocks/header/header.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
 @import url(../blocks/header/__list-link/header__list-link.css);
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__nav-label/header__nav-label.css);
 @import url(../blocks/header/__nav/header__nav.css);
 @import url(../blocks/header/burger/burger.css);
+@import url(../blocks/header/header.css);
 
 /* intro */
 @import url(../blocks/intro/__image/intro__image.css);
-@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__caption/intro__caption.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__wrapper/intro__wrapper.css);
 @import url(../blocks/intro/intro.css);
 
-/* footer */
-@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
+
+@import url(../blocks/blockquote/blockquote.css);
+@import url(../blocks/blockquote/__author/blockquote__author.css);
+@import url(../blocks/blockquote/__caption/blockquote__caption.css);
+@import url(../blocks/blockquote/__item/blockquote__item.css);
+@import url(../blocks/blockquote/__quote/blockquote__quote.css);
+@import url(../blocks/blockquote/__quotes/blockquote__quotes.css);
+@import url(../blocks/blockquote/__title/blockquote__title.css);
+
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

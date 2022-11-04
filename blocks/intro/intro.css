@@ -1,17 +1,20 @@
 .intro {
-  padding: 0 160px 0 50px;
+  background-color: #fff;
+  padding: 5% 12% 10% 5%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 630px) {
   .intro {
-    padding: 0 100px 0 40px;
+    flex-direction: column-reverse;
+    padding: 5%;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 420px) {
   .intro {
-    flex-direction: column;
     padding: 0;
   }
 }
