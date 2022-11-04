@@ -1,9 +1,17 @@
 .header__list-link {
+    font-size: 14px;
+    font-weight: 600;
     text-decoration: none;
     color: black;
+    transition: opacity .5s;
 }
 
 .header__list-link:hover {
-    cursor: pointer;
-    opacity: .3;
+    opacity: .5;
+}
+
+@media screen and (max-width: 560px) {
+    .header__list-link {
+    font-size: 16px;
+  }    
 }

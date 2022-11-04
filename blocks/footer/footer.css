@@ -1,0 +1,14 @@
+.footer {
+    width: 100%;
+    aspect-ratio: 2.1;
+    background-color: #fed1ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 420px) {
+  .footer {
+      aspect-ratio: 4;
+  }
+}
