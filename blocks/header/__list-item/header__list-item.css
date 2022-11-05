@@ -15,6 +15,7 @@
   .header__list-item {
     padding-left: 25px;
     font-size: 16px;
+    line-height: 32px;
   }
 }
 

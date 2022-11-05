@@ -2,3 +2,9 @@
   padding: 3% 4%;
   background-color: #fff;
 }
+
+@media screen and (max-width: 560px) {
+  .header {
+    padding: 8% 4%;
+  }
+}
