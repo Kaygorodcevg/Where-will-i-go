@@ -1,6 +1,6 @@
 .place__image {
   width: 100%;
-  aspect-ratio: 1.18;
+  aspect-ratio: 5/4;
   object-fit: cover;
 }
 
@@ -12,7 +12,7 @@
   .place__image {
     align-self: center;
     width: 90%;
-    aspect-ratio: 1.5;
+    aspect-ratio: 3/2;
   }
 }
 

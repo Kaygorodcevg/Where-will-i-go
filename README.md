@@ -1,6 +1,6 @@
 # Куда я поеду
 ## Яндекс практикум
-[Ссылка на GitHub]()
+[Ссылка на GitHub](https://kaygorodcevg.github.io/Where-will-i-go/)
 
 ### Технологии
 

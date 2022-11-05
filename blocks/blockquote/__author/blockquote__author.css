@@ -1,12 +1,12 @@
 .blockquote__author {
-    margin: 0 0 22px;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
+  margin: 0 0 22px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 980px) {
-    .blockquote__author {
-      font-size: 10px;
-    }
+  .blockquote__author {
+    font-size: 10px;
   }
+}

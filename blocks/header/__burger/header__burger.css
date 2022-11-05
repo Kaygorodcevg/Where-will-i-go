@@ -1,21 +1,21 @@
 .header__burger {
-    display: none;
+  display: none;
+}
+
+.header__burger:checked + .header__nav-label + .header__nav {
+  display: block;
+  animation: burgerAnimation 0.5s ease;
+}
+
+@keyframes burgerAnimation {
+  0% {
+    opacity: 0;
   }
-  
-  .header__burger:checked + .header__nav-label + .header__nav {
-    display: block;
-    animation: burgerAnimation 0.5s ease;
+  100% {
+    opacity: 1;
   }
-  
-  @keyframes burgerAnimation {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  [for="burger"]::before {
-    content: "☰";
-  }
+}
+
+[for="burger"]::before {
+  content: "☰";
+}
