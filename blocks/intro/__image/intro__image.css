@@ -2,11 +2,29 @@
   object-fit: cover;
   max-width: 350px;
   aspect-ratio: 1/1;
-  transition: transform 0.3s ease-in;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .intro__image:hover {
-  transform: scale(1.1);
+  animation: rotation 5s linear 0s infinite;
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 1080px) {
@@ -27,5 +45,12 @@
     align-self: center;
     margin-bottom: 5%;
     aspect-ratio: 3/2;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .intro__image:hover {
+    animation: none;
+    border-radius: 0;
   }
 }
