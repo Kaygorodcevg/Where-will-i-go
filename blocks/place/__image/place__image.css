@@ -1,6 +1,6 @@
 .place__image {
   width: 100%;
-  aspect-ratio: 5/4;
+  aspect-ratio: 100/85;
   object-fit: cover;
 }
 
