@@ -2,6 +2,11 @@
   object-fit: cover;
   max-width: 350px;
   aspect-ratio: 1/1;
+  transition: transform 0.3s ease-in;
+}
+
+.intro__image:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1080px) {
